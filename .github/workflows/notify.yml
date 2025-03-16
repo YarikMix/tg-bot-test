@@ -1,7 +1,9 @@
 name: telegram message
 on: [push]
 jobs:
-  build:
+  notification:
+    runs-on: ubuntu-latest
+
     steps:
       - name: send default message
         uses: appleboy/telegram-action@master
