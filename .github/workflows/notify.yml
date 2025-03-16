@@ -1,6 +1,7 @@
 on:
+  push:
   pull_request:
-    types: [opened, review_requested]
+    types: [opened]
 
 jobs:
 
